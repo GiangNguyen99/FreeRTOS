@@ -1,0 +1,20 @@
+04:02:40 **** Incremental Build of configuration Debug for project 09_freertos_6tasks ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"C:/Users/hoang/OneDrive - ut.edu.vn/Desktop/PROJECT/sample code/FREERTOS/workspace/thirdparty/FreeRTOS/include" -I"C:/Users/hoang/OneDrive - ut.edu.vn/Desktop/PROJECT/sample code/FREERTOS/workspace/thirdparty/FreeRTOS/portable/GCC/ARM_CM4F" -I"C:/Users/hoang/OneDrive - ut.edu.vn/Desktop/PROJECT/sample code/FREERTOS/workspace/thirdparty/FreeRTOS" -I"C:/Users/hoang/OneDrive - ut.edu.vn/Desktop/PROJECT/sample code/FREERTOS/workspace/thirdparty/SEGGER VIEW/CONFIG" -I"C:/Users/hoang/OneDrive - ut.edu.vn/Desktop/PROJECT/sample code/FREERTOS/workspace/thirdparty/SEGGER VIEW/OS" -I"C:/Users/hoang/OneDrive - ut.edu.vn/Desktop/PROJECT/sample code/FREERTOS/workspace/thirdparty/SEGGER VIEW/SEGGER" -I"C:/Users/hoang/OneDrive - ut.edu.vn/Desktop/PROJECT/sample code/FREERTOS/workspace/thirdparty/SEGGER VIEW/REC" -I../Core/Inc -I"C:/Users/hoang/OneDrive - ut.edu.vn/Desktop/PROJECT/sample code/FREERTOS/workspace/09_freertos_6tasks/user_drivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "09_freertos_6tasks.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\hoang\OneDrive - ut.edu.vn\Desktop\PROJECT\sample code\FREERTOS\workspace\09_freertos_6tasks\STM32F411VETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="09_freertos_6tasks.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 09_freertos_6tasks.elf
+ 
+arm-none-eabi-size   09_freertos_6tasks.elf 
+arm-none-eabi-objdump -h -S  09_freertos_6tasks.elf  > "09_freertos_6tasks.list"
+arm-none-eabi-objcopy  -O binary  09_freertos_6tasks.elf  "09_freertos_6tasks.bin"
+   text	   data	    bss	    dec	    hex	filename
+  29496	    168	  81584	 111248	  1b290	09_freertos_6tasks.elf
+Finished building: default.size.stdout
+ 
+Finished building: 09_freertos_6tasks.bin
+ 
+Finished building: 09_freertos_6tasks.list
+ 
+
+04:02:41 Build Finished. 0 errors, 0 warnings. (took 1s.189ms)
+

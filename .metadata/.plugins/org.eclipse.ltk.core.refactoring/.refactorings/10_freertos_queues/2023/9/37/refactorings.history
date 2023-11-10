@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;10_freertos_queues/09_freertos_6tasks.ioc&apos; to &apos;10_freertos_queues.ioc&apos;" description="Rename resource &apos;09_freertos_6tasks.ioc&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="09_freertos_6tasks.ioc" name="10_freertos_queues.ioc" stamp="1694552523760" updateReferences="true"/>
+</session>

@@ -1,0 +1,10 @@
+15:16:27 **** Incremental Build of configuration Debug for project 03_freertos_led_vTaskDelay ****
+make -j8 all 
+arm-none-eabi-size   03_freertos_led_vTaskDelay.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23956	     36	  84500	 108492	  1a7cc	03_freertos_led_vTaskDelay.elf
+Finished building: default.size.stdout
+ 
+
+15:16:27 Build Finished. 0 errors, 0 warnings. (took 316ms)
+

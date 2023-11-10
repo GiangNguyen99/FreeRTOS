@@ -1,0 +1,28 @@
+1693122990119	Delete resource '02_freertos_led/common file'
+1693126182353	Delete resource '02_freertos_led/common file/thirdparty/FreeRTOS/FreeRTOSConfig.h'
+1693137067644	Rename resource '02_freertos_led'
+1693158672897	Delete resource '03_freertos_led_vTaskDelay/02_freertos_led Debug.launch'
+1693158717135	Delete 8 resources
+1693204640505	Delete resource '04_freertos_led_vTaskDelayUntil/03_freertos_led_vTaskDelay Debug.launch'
+1693204646878	Delete resource '04_freertos_led_vTaskDelayUntil/Debug/03_freertos_led_vTaskDelay.elf'
+1693204653117	Delete 3 resources
+1693215068518	Delete resource '05_freertos_led_vTaskDelete/04_freertos_led_vTaskDelayUntil.launch'
+1693215075901	Delete 4 resources
+1693244643658	Delete resource '06_freertos_led_vTaskDelete_btnISR/Debug/05_freertos_led_vTaskDelete.map'
+1693246160614	Delete resource '06_freertos_led_vTaskDelete_btnISR/06_freertos_led_vTaskDelete_btnISR.launch'
+1693278709928	Delete 4 resources
+1693282141099	Delete resource '07_freertos_led_switchPriority/07_freertos_led_switchPriority.launch'
+1693304900875	Delete 4 resources
+1693305250945	Delete resource '07_freertos_led_switchPriority_2/FreeRTOS'
+1693305387021	Delete resource '07_freertos_led_switchPriority_2'
+1693305530209	Delete resource '07_freertos_test'
+1693305579190	Delete resource '07_freertos_led_switchPriority2'
+1693308548886	Delete resource '07_freertos_test/common file'
+1693311806054	Delete resource '07_test2/thirdparty - old version'
+1693312309582	Delete resource '07_test2/thirdparty - old version'
+1693313442155	Delete resource '07_test2/common file/thirdparty - old version'
+1693313445532	Delete resource '07_test2/common file'
+1693315395614	Delete resource '06_freertos_led_vTaskDelete_btnISR/common file/New folder'
+1693315986176	Delete resource '07_freertos_test'
+1693316005784	Delete resource '07_freertos_led_switchPriority'
+1693316019626	Rename resource '07_test2'

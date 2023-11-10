@@ -1,0 +1,17 @@
+main.c:122:5:main	32	static,ignoring_inline_asm
+main.c:220:6:SystemClock_Config	88	static
+main.c:256:13:MX_I2C1_Init	8	static
+main.c:288:13:MX_I2C2_Init	8	static
+main.c:320:13:MX_GPIO_Init	48	static
+main.c:387:6:handle_keypad	24	static
+main.c:469:6:handle_lcd	200	static
+main.c:729:6:handle_rtc	16	static
+main.c:745:6:number_to_string	16	static
+main.c:755:6:am_pm_to_string	16	static
+main.c:769:6:day_to_string	16	static
+main.c:812:7:time_to_string	16	static
+main.c:833:7:date_to_string	16	static
+main.c:851:6:alarm	8	static
+main.c:858:6:btn_off_alarm	8	static
+main.c:875:6:HAL_TIM_PeriodElapsedCallback	16	static
+main.c:891:6:Error_Handler	4	static,ignoring_inline_asm

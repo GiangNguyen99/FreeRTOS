@@ -1,0 +1,11 @@
+main.c:86:5:main	40	static,ignoring_inline_asm
+main.c:154:6:SystemClock_Config	88	static
+main.c:196:13:MX_GPIO_Init	40	static
+main.c:242:6:handle_led_green	128	static
+main.c:259:6:handle_led_orange	128	static
+main.c:277:6:handle_led_red	128	static
+main.c:293:6:handle_led_blue	128	static
+main.c:311:6:btn_user	24	static,ignoring_inline_asm
+main.c:324:6:handle_keypad	32	static,ignoring_inline_asm
+main.c:391:6:HAL_TIM_PeriodElapsedCallback	16	static
+main.c:407:6:Error_Handler	4	static,ignoring_inline_asm

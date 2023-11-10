@@ -1,0 +1,10 @@
+15:59:36 **** Incremental Build of configuration Debug for project 06_freertos_led_vTaskDelete_btnISR ****
+make -j8 all 
+arm-none-eabi-size   06_freertos_led_vTaskDelete_btnISR.elf 
+   text	   data	    bss	    dec	    hex	filename
+  26916	     36	  84620	 111572	  1b3d4	06_freertos_led_vTaskDelete_btnISR.elf
+Finished building: default.size.stdout
+ 
+
+15:59:36 Build Finished. 0 errors, 0 warnings. (took 309ms)
+

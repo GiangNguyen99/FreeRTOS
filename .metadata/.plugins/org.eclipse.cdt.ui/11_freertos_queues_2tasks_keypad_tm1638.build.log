@@ -1,0 +1,29 @@
+21:14:14 **** Incremental Build of configuration Debug for project 11_freertos_queues_2tasks_keypad_tm1638 ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"C:/Users/hoang/OneDrive - ut.edu.vn/Desktop/PROJECT/sample code/FREERTOS/workspace/thirdparty/FreeRTOS/include" -I"C:/Users/hoang/OneDrive - ut.edu.vn/Desktop/PROJECT/sample code/FREERTOS/workspace/thirdparty/FreeRTOS/portable/GCC/ARM_CM4F" -I"C:/Users/hoang/OneDrive - ut.edu.vn/Desktop/PROJECT/sample code/FREERTOS/workspace/thirdparty/FreeRTOS" -I"C:/Users/hoang/OneDrive - ut.edu.vn/Desktop/PROJECT/sample code/FREERTOS/workspace/thirdparty/SEGGER VIEW/CONFIG" -I"C:/Users/hoang/OneDrive - ut.edu.vn/Desktop/PROJECT/sample code/FREERTOS/workspace/thirdparty/SEGGER VIEW/OS" -I"C:/Users/hoang/OneDrive - ut.edu.vn/Desktop/PROJECT/sample code/FREERTOS/workspace/thirdparty/SEGGER VIEW/SEGGER" -I"C:/Users/hoang/OneDrive - ut.edu.vn/Desktop/PROJECT/sample code/FREERTOS/workspace/thirdparty/SEGGER VIEW/REC" -I../Core/Inc -I"C:/Users/hoang/OneDrive - ut.edu.vn/Desktop/PROJECT/sample code/FREERTOS/workspace/09_freertos_6tasks/user_drivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'handle_tm1638':
+../Core/Src/main.c:358:4: warning: implicit declaration of function 'tm1638_cnt_down_non_bl'; did you mean 'tm1638_cnt_down'? [-Wimplicit-function-declaration]
+  358 |    tm1638_cnt_down_non_bl(var_time_down);
+      |    ^~~~~~~~~~~~~~~~~~~~~~
+      |    tm1638_cnt_down
+../Core/Src/main.c:365:4: warning: implicit declaration of function 'tm1638_cnt_up_non_bl'; did you mean 'tm1638_cnt_up_right'? [-Wimplicit-function-declaration]
+  365 |    tm1638_cnt_up_non_bl(var_time_up);
+      |    ^~~~~~~~~~~~~~~~~~~~
+      |    tm1638_cnt_up_right
+arm-none-eabi-gcc -o "11_freertos_queues_2tasks_keypad_tm1638.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\hoang\OneDrive - ut.edu.vn\Desktop\PROJECT\sample code\FREERTOS\workspace\11_freertos_queues_2tasks_keypad_tm1638\STM32F411VETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="11_freertos_queues_2tasks_keypad_tm1638.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 11_freertos_queues_2tasks_keypad_tm1638.elf
+ 
+arm-none-eabi-size   11_freertos_queues_2tasks_keypad_tm1638.elf 
+arm-none-eabi-objdump -h -S  11_freertos_queues_2tasks_keypad_tm1638.elf  > "11_freertos_queues_2tasks_keypad_tm1638.list"
+arm-none-eabi-objcopy  -O binary  11_freertos_queues_2tasks_keypad_tm1638.elf  "11_freertos_queues_2tasks_keypad_tm1638.bin"
+   text	   data	    bss	    dec	    hex	filename
+  34988	    184	  97064	 132236	  2048c	11_freertos_queues_2tasks_keypad_tm1638.elf
+Finished building: default.size.stdout
+ 
+Finished building: 11_freertos_queues_2tasks_keypad_tm1638.bin
+ 
+Finished building: 11_freertos_queues_2tasks_keypad_tm1638.list
+ 
+
+21:14:15 Build Finished. 0 errors, 2 warnings. (took 1s.323ms)
+

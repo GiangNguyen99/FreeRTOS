@@ -1,0 +1,10 @@
+01:28:26 **** Incremental Build of configuration Debug for project 08_freertos_queue_5tasks ****
+make -j8 all 
+arm-none-eabi-size   08_freertos_queue_5tasks.elf 
+   text	   data	    bss	    dec	    hex	filename
+  32112	    140	  79236	 111488	  1b380	08_freertos_queue_5tasks.elf
+Finished building: default.size.stdout
+ 
+
+01:28:26 Build Finished. 0 errors, 0 warnings. (took 365ms)
+

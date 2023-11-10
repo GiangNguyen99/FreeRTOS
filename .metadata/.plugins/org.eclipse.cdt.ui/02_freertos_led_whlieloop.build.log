@@ -1,0 +1,10 @@
+04:21:51 **** Incremental Build of configuration Debug for project 02_freertos_led_whlieloop ****
+make -j8 all 
+arm-none-eabi-size   02_freertos_led_whlieloop.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23496	     36	  84500	 108032	  1a600	02_freertos_led_whlieloop.elf
+Finished building: default.size.stdout
+ 
+
+04:21:51 Build Finished. 0 errors, 0 warnings. (took 307ms)
+

@@ -1,0 +1,11 @@
+lcd_hal.c:14:6:lcd_print_string	16	static
+lcd_hal.c:25:6:lcd_display_clear_i2c	8	static
+lcd_hal.c:39:6:lcd_display_return_home	8	static
+lcd_hal.c:55:6:lcd_set_cursor	16	static
+lcd_hal.c:86:6:lcd_send_cmd	32	static
+lcd_hal.c:103:6:lcd_send_data	32	static
+lcd_hal.c:117:6:lcd_clear	16	static
+lcd_hal.c:126:6:lcd_put_cur	16	static
+lcd_hal.c:143:6:lcd_init_i2c	8	static
+lcd_hal.c:175:6:lcd_send_string	16	static
+lcd_hal.c:181:6:lcd_display_return_home_i2c	8	static

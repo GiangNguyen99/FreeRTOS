@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;05_freertos_led_vTaskDelete/04_freertos_led_vTaskDelayUntil.ioc&apos; to &apos;05_freertos_led_vTaskDelete.ioc&apos;" description="Rename resource &apos;04_freertos_led_vTaskDelayUntil.ioc&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="04_freertos_led_vTaskDelayUntil.ioc" name="05_freertos_led_vTaskDelete.ioc" stamp="1693215063641" updateReferences="true"/>
+</session>

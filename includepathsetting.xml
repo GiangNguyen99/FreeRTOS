@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cdtprojectproperties>
+<section name="org.eclipse.cdt.internal.ui.wizards.settingswizards.IncludePaths">
+<language name="s,S">
+<includepath>C:\Users\hoang\OneDrive - ut.edu.vn\Desktop\PROJECT\sample code\FREERTOS\workspace\common file\thirdparty\SEGGER\Config</includepath>
+<includepath>C:\Users\hoang\OneDrive - ut.edu.vn\Desktop\PROJECT\sample code\FREERTOS\workspace\common file\thirdparty\SEGGER\SEGGER</includepath>
+
+</language>
+<language name="C Source File">
+<includepath>Core/Inc</includepath>
+<includepath>Drivers/STM32F4xx_HAL_Driver/Inc</includepath>
+<includepath>Drivers/STM32F4xx_HAL_Driver/Inc/Legacy</includepath>
+<includepath>Drivers/CMSIS/Device/ST/STM32F4xx/Include</includepath>
+<includepath>Drivers/CMSIS/Include</includepath>
+<includepath>C:\Users\hoang\OneDrive - ut.edu.vn\Desktop\PROJECT\sample code\FREERTOS\workspace\common file\thirdparty\FreeRTOS\include</includepath>
+<includepath>C:\Users\hoang\OneDrive - ut.edu.vn\Desktop\PROJECT\sample code\FREERTOS\workspace\common file\thirdparty\FreeRTOS\portable\GCC\ARM_CM4F</includepath>
+<includepath>C:\Users\hoang\OneDrive - ut.edu.vn\Desktop\PROJECT\sample code\FREERTOS\workspace\common file\thirdparty\SEGGER\Config</includepath>
+<includepath>C:\Users\hoang\OneDrive - ut.edu.vn\Desktop\PROJECT\sample code\FREERTOS\workspace\common file\thirdparty\SEGGER\OS</includepath>
+<includepath>C:\Users\hoang\OneDrive - ut.edu.vn\Desktop\PROJECT\sample code\FREERTOS\workspace\common file\thirdparty\SEGGER\SEGGER</includepath>
+<includepath>C:\Users\hoang\OneDrive - ut.edu.vn\Desktop\PROJECT\sample code\FREERTOS\workspace\common file\thirdparty\SEGGER\Rec</includepath>
+
+</language>
+<language name="Object File">
+
+</language>
+</section>
+<section name="org.eclipse.cdt.internal.ui.wizards.settingswizards.Macros">
+<language name="s,S">
+<macro>
+<name>DEBUG</name><value/>
+</macro>
+
+</language>
+<language name="C Source File">
+<macro>
+<name>DEBUG</name><value/>
+</macro>
+<macro>
+<name>USE_HAL_DRIVER</name><value/>
+</macro>
+<macro>
+<name>STM32F411xE</name><value/>
+</macro>
+
+</language>
+<language name="Object File">
+
+</language>
+</section>
+</cdtprojectproperties>
